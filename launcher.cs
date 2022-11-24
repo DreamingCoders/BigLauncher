@@ -38,7 +38,6 @@ namespace Launcher
             regeditProcess.WaitForExit();
             */
 
-            // youre not going anywhere you bastard!
         }
     }
 }
