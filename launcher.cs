@@ -41,3 +41,36 @@ namespace Launcher
         }
     }
 }
+
+/* og bryckie launcher */
+using System.Diagnostics;
+class Program
+{
+    static void Main()
+    {
+/*
+Process.Start("bryckie", "readmbryckie.exe");
+
+string winpath = Environment.GetEnvironmentVariable("windir");
+string path = System.IO.Path.GetDirectoryName(
+              System.Windows.Forms.Application.ExecutablePath);
+
+Process.Start(winpath + @"\Microsoft.NET\Framework\v1.0.3705\Installutil.exe",
+path + "\\MyService.exe");
+*/
+
+
+// Display loader
+/*
+You are now launching Bryckie. Please wait while we load in your player data
+*/
+
+System.Diagnostics.Process.Start( @"C:\Program Files (x86)\Bryckie\bryckie.exe" );
+// We dont need to use System.Diagnostics since it's using the scope directly
+      //Process.Start("C:\\process.exe");
+arguments = "-u", "-csrf";
+      
+      start.Arguments = arguments;
+
+    }
+}
